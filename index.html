@@ -7,32 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Projects | Sam Carty</title>
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
+    <base href="/">
+    
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    
+    <!-- JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $("#header-placeholder").load("header.html");
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="#">Sam Carty</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Projects<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/cv/index.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="header-placeholder"></div>
 
     <div class="container">
         <div class="jumbotron">
@@ -90,16 +90,8 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-light bg-light" style="position: absolute; bottom: 0; width: 100%">
-        <div class="container">
-            <div class="footer-copyright text-center py-3">Made by Sam Carty | 2019</div>
-        </div>
-    </nav>
-    
-        <!-- JavaScript -->
-    <!-- jQuery first, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-    
+    <div id="footer-placeholder"></div>
+
 </body>
+
 </html>
