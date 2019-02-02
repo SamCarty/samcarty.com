@@ -9,19 +9,23 @@
     <title>CV | Sam Carty</title> <!-- Change title -->
 
     <base href="/"> <!-- Change path -->
-    
+
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
-    
+
     <!-- JavaScript -->
     <!-- jQuery first, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script>
         $(function() {
-            $("#header-placeholder").load("header.html");
+            $("#header-placeholder").load("header.html",
+                function() {
+                    jQuery("#tab-cv").addClass("active");
+                }
+            );
         });
     </script>
     <script>
@@ -34,9 +38,9 @@
 
 <body>
     <div id="header-placeholder"></div>
-    
+
     <p>Hello world!</p> <!-- Content goes here! -->
-    
+
     <div id="footer-placeholder"></div>
 </body>
 </html>

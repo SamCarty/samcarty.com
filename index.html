@@ -9,23 +9,32 @@
     <title>Projects | Sam Carty</title>
 
     <base href="/">
-    
+
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
-    
+
     <!-- JavaScript -->
     <!-- jQuery first, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.js" crossorigin="anonymous"></script>
     <script>
         $(function() {
-            $("#header-placeholder").load("header.html");
+            $("#header-placeholder").load("header.html",
+                function() {
+                    jQuery("#tab-projects").addClass("active");
+                }
+            );
         });
     </script>
     <script>
         $(function() {
             $("#footer-placeholder").load("footer.html");
+        });
+    </script>
+    <script>
+        $(function() {
+            $("#tab-projects").addClass("active");
         });
     </script>
     <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
@@ -34,62 +43,63 @@
 <body>
     <div id="header-placeholder"></div>
 
-    <div class="container">
-        <div class="jumbotron">
-            <span class="badge badge-pill badge-success style=" style="margin-right: 10px">Android</span>
-            <span class="badge badge-pill badge-primary" style="margin-right: 10px">Active Dev</span>
-            <h1 class="display-3">Ontime</h1>
-            <p class="lead">Live UK train tracking app for Android.</p>
-            <hr class="my-4">
-            <p>Now available on Google Play, Ontime is a fast and simple train times app. When you're in a hurry, you shouldn't have to delve into a web of menus to check your train - Ontime is a minimal, easy to use live times app to get you the information fast.</p>
-            <a href='https://play.google.com/store/apps/details?id=com.zarg.ontime&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="75px" alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' /></a>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <div class="card border-primary mb-3">
-                    <div class="card-header">
-                        <span class="badge badge-pill badge-success" style="margin-right: 10px">Android</span>
-                        <span class="badge badge-pill badge-primary  style=" margin-right: 10px"">Active Dev</span>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">GamePlan</h4>
-                        <p class="card-text">Upcoming game release tracker and wishlist app for Android.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card border-primary mb-3">
-                    <div class="card-header">
-                        <span class="badge badge-pill badge-success" style="margin-right: 10px">Android</span>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Simple Tasks</h4>
-                        <p class="card-text">Add your tasks and to-dos quickly and easily with Simple Tasks for Android.</p>
-                        <a href='https://play.google.com/store/apps/details?id=com.zarg.notes&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="50px" alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' /></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card border-primary mb-3">
-                    <div class="card-header">
-                        <span class="badge badge-pill badge-info" style="margin-right: 10px">HTML</span>
-                        <span class="badge badge-pill badge-dark" style="margin-right: 10px">CSS</span>
-                        <span class="badge badge-pill badge-warning" style="margin-right: 10px">JS</span>
-                        <span class="badge badge-pill badge-danger" style="margin-right: 10px">Depreciated</span>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Codename Machine</h4>
-                        <p class="card-text">Generate a random codename for your next project automatically.</p>
-                        <a href="http://www.codenamemachine.com">codenamemachine.com</a>
-                    </div>
-                </div>
+    <div id="main" class="container">
+        <div class="container">
+            <div class="jumbotron">
+                <span class="badge badge-pill badge-success style=" style="margin-right: 10px">Android</span>
+                <span class="badge badge-pill badge-primary" style="margin-right: 10px">Active Dev</span>
+                <h1 class="display-3">Ontime</h1>
+                <p class="lead">Live UK train tracking app for Android.</p>
+                <hr class="my-4">
+                <p>Now available on Google Play, Ontime is a fast and simple train times app. When you're in a hurry, you shouldn't have to delve into a web of menus to check your train - Ontime is a minimal, easy to use live times app to get you the information fast.</p>
+                <a href='https://play.google.com/store/apps/details?id=com.zarg.ontime&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="75px" alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' /></a>
             </div>
         </div>
-    </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card border-primary mb-3">
+                        <div class="card-header">
+                            <span class="badge badge-pill badge-success" style="margin-right: 10px">Android</span>
+                            <span class="badge badge-pill badge-primary  style=" margin-right: 10px"">Active Dev</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">GamePlan</h4>
+                            <p class="card-text">Upcoming game release tracker and wishlist app for Android.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card border-primary mb-3">
+                        <div class="card-header">
+                            <span class="badge badge-pill badge-success" style="margin-right: 10px">Android</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Simple Tasks</h4>
+                            <p class="card-text">Add your tasks and to-dos quickly and easily with Simple Tasks for Android.</p>
+                            <a href='https://play.google.com/store/apps/details?id=com.zarg.notes&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="50px" alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png' /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card border-primary mb-3">
+                        <div class="card-header">
+                            <span class="badge badge-pill badge-info" style="margin-right: 10px">HTML</span>
+                            <span class="badge badge-pill badge-dark" style="margin-right: 10px">CSS</span>
+                            <span class="badge badge-pill badge-warning" style="margin-right: 10px">JS</span>
+                            <span class="badge badge-pill badge-danger" style="margin-right: 10px">Depreciated</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Codename Machine</h4>
+                            <p class="card-text">Generate a random codename for your next project automatically.</p>
+                            <a href="http://www.codenamemachine.com">codenamemachine.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="footer-placeholder"></div>
 
 </body>
