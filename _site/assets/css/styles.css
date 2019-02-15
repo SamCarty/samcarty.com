@@ -1,0 +1,61 @@
+section {
+  padding: 20px 0; }
+
+.navbar {
+  background-image: linear-gradient(to right, #002171, #0052cc); }
+
+.navbar a {
+  color: #ffffff; }
+
+.jumbotron {
+  background-image: linear-gradient(to right, #002171, #0052cc);
+  color: #ffffff;
+  padding: 100px 25px;
+  border-radius: 0 !important; }
+
+.jumbotron code {
+  color: white;
+  font-size: 24px; }
+
+.jumbotron h1 {
+  font-size: 56px; }
+
+#heading {
+  padding: 156px 0 100px; }
+
+#heading-text {
+  position: absolute;
+  top: 25%; }
+
+#heading-holder {
+  max-width: 600px; }
+
+#portrait {
+  border-radius: 50%;
+  width: 180px;
+  float: right; }
+
+.card {
+  height: 300px; }
+
+.card img {
+  width: 20px;
+  margin-right: 10px; }
+
+.project-link {
+  position: absolute;
+  bottom: 10px;
+  left: 15px; }
+
+.project-link img {
+  width: 160px; }
+
+footer {
+  background-image: linear-gradient(to right, #002171, #0052cc); }
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 75px; }
