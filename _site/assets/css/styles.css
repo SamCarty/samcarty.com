@@ -27,8 +27,7 @@ section {
   max-width: 600px; }
 
 #heading-text {
-  position: relative;
-  top: 25%; }
+  margin-top: 30px; }
 
 #portrait {
   border-radius: 50%;
