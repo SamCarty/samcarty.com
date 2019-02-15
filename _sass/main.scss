@@ -30,19 +30,18 @@ section {
     padding: 156px 0 100px;
 }
 
-#heading-text {
-    position: absolute;
-    top: 25%;
-}
-
 #heading-holder {
     max-width: 600px;
+}
+
+#heading-text {
+    position: relative;
+    top: 25%;
 }
 
 #portrait {
     border-radius: 50%;
     width: 180px;
-    float: right;
 }
 
 .card {
