@@ -2,3 +2,5 @@
   link: /
 - name: Codenamemachine
   link: /codenamemachine
+  name: .well-known
+  link: /.well-known
