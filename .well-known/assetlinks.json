@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.zarg.ontime",
+    "sha256_cert_fingerprints":
+    ["F1:3E:D3:60:A2:6D:1D:09:B8:F7:3B:FC:D0:06:24:CE:3E:42:63:55:76:69:A6:A5:21:23:A9:0C:72:5A:F0:4F"]
+  }
+}]
