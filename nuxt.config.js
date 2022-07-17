@@ -17,8 +17,12 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  server: {
+    host: '0.0.0.0',
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['normalize.css/normalize.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -30,7 +34,13 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/style-resources',
   ],
+
+  // SCSS loading
+  styleResources: {
+    scss: ['./assets/scss/*.scss'],
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
