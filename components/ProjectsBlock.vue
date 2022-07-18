@@ -67,7 +67,7 @@ export default {
           description:
             'A Plants vs. Zombies-inspired tower defence game in Unity.',
           imageUrl:
-            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658077402/portfolio/dungeon-defender_ohlvie.gif',
+            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658077402/portfolio/dungeon-defender_ohlvie.png',
           url: 'https://github.com/SamCarty/UnityDungeonDefence',
         },
       ]
