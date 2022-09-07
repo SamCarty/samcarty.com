@@ -23,19 +23,11 @@ export default {
       {
         rel: 'icon',
         type: 'image/png',
-        sizes: '32x32',
-        href: '/favicon-32px.png',
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '192x192',
         href: '/favicon-192px.png',
       },
       {
         rel: 'apple-touch-icon',
         type: 'image/png',
-        sizes: '180x180',
         href: '/apple-touch-icon.png',
       },
       {
