@@ -1,12 +1,12 @@
 <template>
   <section class="hero-block">
     <div class="hero-block__header">
-      <!-- <h1 class="heading-primary">
+      <h1 class="heading-primary">
         <span
           class="heading-subtitle hero-block__header__heading hero-block__header__heading--greeting"
           >HELLO WORLD, I'M</span
         >Sam Carty
-      </h1> -->
+      </h1>
       <p class="hero-block__header__bio">
         I'm a <strong>software engineer</strong> with extensive experience
         developing <strong>full-stack web applications</strong>, currently
