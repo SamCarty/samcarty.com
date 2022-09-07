@@ -3,7 +3,7 @@
     :href="project.url"
     target="_blank"
     class="project-tile"
-    :style="styleVars"
+    :style="`background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(${project.imageUrl});`"
   >
     <div class="project-tile__inner">
       <h3 class="heading-subtitle project-tile__title">{{ project.name }}</h3>
@@ -21,13 +21,6 @@ export default {
       required: true,
     },
   },
-  computed: {
-    styleVars() {
-      return {
-        '--background-image': `url(${this.project.imageUrl});`,
-      }
-    },
-  },
 }
 </script>
 
@@ -36,12 +29,6 @@ export default {
   position: relative;
   width: 100%;
   padding: 2rem 2rem 56.25% 2rem;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.9)
-    ),
-    var(--background-image);
   background-size: cover;
   transition: 0.2s ease-in-out all;
 
