@@ -43,6 +43,7 @@ export default {
   background-color: $c-secondary;
   background-image: url('https://res.cloudinary.com/samcarty/image/upload/v1658098487/portfolio/cartographer_pplfpn.png');
   height: 100vh;
+  min-height: 800px;
   color: $c-text-light;
 
   * {
