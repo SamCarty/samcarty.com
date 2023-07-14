@@ -1,14 +1,19 @@
 <template>
   <footer class="section">
     <div class="container">
-      <p class="copyright heading-subtitle">© Sam Carty 2022</p>
+      <p class="copyright heading-subtitle">© Sam Carty {{ currentYear }}</p>
     </div>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'FooterBlock'
+  name: 'FooterBlock',
+  computed: {
+    currentYear() {
+      return new Date().getFullYear()
+    },
+  },
 }
 </script>
 
