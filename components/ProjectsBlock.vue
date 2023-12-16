@@ -10,6 +10,7 @@
           v-for="(project, index) in projects"
           :key="index"
           :project="project"
+          class="projects-block__tile"
         />
       </div>
     </div>
@@ -22,6 +23,14 @@ export default {
   computed: {
     projects() {
       return [
+        {
+          name: 'The Co-operative Group',
+          description:
+            'Software Engineer at Co-op, helping to develop and maintain a selection of customer-facing products.',
+          imageUrl:
+            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658068159/portfolio/coop-logo.png',
+          url: 'https://coop.co.uk',
+        },
         {
           name: 'Find Others',
           description:
@@ -39,14 +48,6 @@ export default {
           url: 'https://play.google.com/store/apps/details?id=com.zarg.ontime',
         },
         {
-          name: 'GamePlan',
-          description:
-            'Video games recommender system using Django to suggest relevant titles to gamers.',
-          imageUrl:
-            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658076962/portfolio/gameplan_zkswhp.png',
-          url: 'https://github.com/SamCarty/GamePlanWebApp',
-        },
-        {
           name: 'The Covid Memorial',
           description:
             'Co-developed a memorial for all those lost to COVID-19 and put a face and story to every number.',
@@ -55,20 +56,20 @@ export default {
           url: 'https://thecovid.memorial',
         },
         {
+          name: 'GamePlan',
+          description:
+            'Video games recommender system using Django to suggest relevant titles to gamers.',
+          imageUrl:
+            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658076962/portfolio/gameplan_zkswhp.png',
+          url: 'https://github.com/SamCarty/GamePlanWebApp',
+        },
+        {
           name: 'The Codename Machine',
           description:
             'A simple name generator for creating a random unique codename for your next project.',
           imageUrl:
             'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658077272/portfolio/codename-machine_u3yyk8.png',
           url: 'https://samcarty.com/codenamemachine',
-        },
-        {
-          name: 'Dungeon Defender',
-          description:
-            'A Plants vs. Zombies-inspired tower defence game in Unity.',
-          imageUrl:
-            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658077402/portfolio/dungeon-defender_ohlvie.png',
-          url: 'https://github.com/SamCarty/UnityDungeonDefence',
         },
       ]
     },

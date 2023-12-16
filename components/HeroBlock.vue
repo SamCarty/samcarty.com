@@ -11,7 +11,12 @@
         I'm a <strong>software engineer</strong> with extensive experience
         developing <strong>full-stack web applications</strong>, currently
         working at
-        <a href="https://findothers.com" target="_blank">Find Others</a>.
+        <a href="https://coop.co.uk" target="_blank">The Co-operative Group</a>.
+      </p>
+      <p class="hero-block__header__bio">
+        My previous experience includes working with startup
+        <a href="https://findothers.com" target="_blank">Find Others</a>
+        to help build a central hub for victims of injustices to unite and take action.
       </p>
       <p class="hero-block__header__bio">
         I'm also interested in <strong>mobile development</strong>, with a
@@ -20,7 +25,7 @@
           href="https://play.google.com/store/apps/details?id=com.zarg.ontime"
           target="_blank"
           >live in the Play Store</a
-        >!
+        >.
       </p>
       <p class="hero-block__header__bio">
         Why not check out what else
@@ -68,7 +73,7 @@ export default {
     }
 
     &__bio {
-      max-width: 48rem;
+      max-width: 42rem;
       font-size: 1rem;
       margin-top: 2rem;
       line-height: 1.6;

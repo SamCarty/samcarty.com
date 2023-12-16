@@ -1,7 +1,7 @@
 <template>
   <footer class="section">
     <div class="container">
-      <p class="copyright heading-subtitle">© Sam Carty {{ currentYear }}</p>
+      <p class="copyright heading-caption">© Sam Carty {{ currentYear }}</p>
     </div>
   </footer>
 </template>
@@ -19,6 +19,10 @@ export default {
 
 <style lang="scss" scoped>
 .copyright {
-  font-weight: bold;
+  color: $c-text-light;
+}
+
+footer {
+  background: $c-primary;
 }
 </style>
