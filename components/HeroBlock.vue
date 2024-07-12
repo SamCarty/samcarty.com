@@ -27,10 +27,6 @@
           >live in the Play Store</a
         >.
       </p>
-      <p class="hero-block__header__bio">
-        Why not check out what else
-        <a href="#projects">I've been working on</a>?
-      </p>
     </div>
 
     <ScrollArrow link="#projects" class="hero-block__scroll" />
