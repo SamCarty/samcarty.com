@@ -1,6 +1,6 @@
-- Fix the `pnpm generate` output
+- Fix the `pnpm generate` output ✅
 - Add the meta tags from v1 ✅
-- Test deploying with the GitHub actions
+- Test deploying with the GitHub actions ✅
 - Fix prettier issues ✅
 - Pin Vue to specific version in package.json ✅
 - Update readme with more useful info
