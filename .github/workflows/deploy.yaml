@@ -33,8 +33,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: yarn
+          node-version: '22'
+          cache: pnpm
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
@@ -53,9 +53,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
       - name: Static HTML export with Nuxt
-        run: yarn run generate
+        run: pnpm generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

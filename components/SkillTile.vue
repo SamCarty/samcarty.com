@@ -12,8 +12,8 @@ export default {
     skill: {
       type: Object,
       required: true,
-    }
-  }
+    },
+  },
 }
 </script>
 

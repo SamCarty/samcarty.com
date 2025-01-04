@@ -2,7 +2,7 @@
   <section class="section section--primary contact-block">
     <div class="container">
       <h3 class="heading-subtitle">
-        Get in touch with me at 
+        Get in touch with me at
         <a href="mailto:me@samcarty.com" target="_blank">me@samcarty.com</a>
       </h3>
 
