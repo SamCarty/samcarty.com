@@ -38,4 +38,8 @@ Generate the static site HTML files:
 pnpm generate
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Deployment
+
+Deployment is handled through GitHub Actions where the site is statically built and hosted on GitHub pages.
+
+Configuration for this can be found in `.github/workflows/deploy.yaml`.
