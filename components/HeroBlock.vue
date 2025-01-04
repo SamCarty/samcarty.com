@@ -16,7 +16,8 @@
       <p class="hero-block__header__bio">
         My previous experience includes working with startup
         <a href="https://findothers.com" target="_blank">Find Others</a>
-        to help build a central hub for victims of injustices to unite and take action.
+        to help build a central hub for victims of injustices to unite and take
+        action.
       </p>
       <p class="hero-block__header__bio">
         I'm also interested in <strong>mobile development</strong>, with a
