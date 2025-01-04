@@ -1,6 +1,6 @@
 <template>
   <a class="social-link" :aria-label="label" :href="url" target="_blank">
-    <img :src="icon" :alt="`${label} logo`" />
+    <img :src="icon" :alt="`${label} logo`" >
   </a>
 </template>
 
