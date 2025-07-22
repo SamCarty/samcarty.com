@@ -1,7 +1,24 @@
 <template>
   <footer class="section">
     <div class="container">
-      <p class="copyright heading-caption">© Sam Carty {{ currentYear }}</p>
+      <p class="footer-heading heading-caption">
+        © Sam Carty {{ currentYear }}
+      </p>
+      <div class="attributions">
+        <p class="footer-heading heading-caption">Attributions</p>
+        <ul>
+          <li>
+            theme park icon used in the Park Times logo is by Slamet Widodo from
+            <a
+              href="https://thenounproject.com/browse/icons/term/theme-park/"
+              target="_blank"
+              title="theme park Icons"
+              >Noun Project</a
+            >
+            (CC BY 3.0)
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 </template>
@@ -18,8 +35,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.copyright {
+.footer-heading {
   color: $c-text-light;
+  margin-bottom: 2rem;
+}
+
+.attributions {
+  max-width: 400px;
+  margin: 2rem auto 0 auto;
+
+  p {
+    margin: 0;
+  }
+
+  li {
+    text-align: start;
+    list-style-type: disc;
+    margin: $m-small 0;
+  }
 }
 
 footer {

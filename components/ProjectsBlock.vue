@@ -11,6 +11,7 @@
           :key="index"
           :project="project"
           class="projects-block__tile"
+          :class="{ 'projects-block__tile--wide': project.wide }"
         />
       </div>
     </div>
@@ -30,6 +31,7 @@ export default {
           imageUrl:
             'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658068159/portfolio/coop-logo.png',
           url: 'https://coop.co.uk',
+          wide: true,
         },
         {
           name: 'Find Others',
@@ -48,6 +50,13 @@ export default {
           url: 'https://play.google.com/store/apps/details?id=com.zarg.ontime',
         },
         {
+          name: 'Park Times',
+          description: 'Live theme park wait times web app - built in NextJS.',
+          imageUrl:
+            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1753220444/park-times-logo_jkyimk.png',
+          url: 'https://parks.samcarty.com',
+        },
+        {
           name: 'The Covid Memorial',
           description:
             'Co-developed a memorial for all those lost to COVID-19 and put a face and story to every number.',
@@ -64,7 +73,7 @@ export default {
           url: 'https://github.com/SamCarty/GamePlanWebApp',
         },
         {
-          name: 'The Codename Machine',
+          name: 'Codename Machine',
           description:
             'A simple name generator for creating a random unique codename for your next project.',
           imageUrl:
@@ -83,11 +92,22 @@ export default {
     display: grid;
     grid-template: auto / 1fr;
     gap: 1rem;
-    margin: 0 2rem;
+    margin: 0 auto;
+    padding-inline: 1rem;
+    max-width: 850px;
 
     @media (min-width: $bp-tablet) {
       grid-template-columns: repeat(2, 1fr);
-      gap: 3rem;
+      gap: 2rem;
+      padding-inline: 0;
+    }
+  }
+
+  &__tile {
+    &--wide {
+      @media (min-width: $bp-tablet) {
+        grid-column: span 2;
+      }
     }
   }
 }
