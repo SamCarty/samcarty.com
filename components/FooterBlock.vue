@@ -1,9 +1,6 @@
 <template>
   <footer class="section">
     <div class="container">
-      <p class="footer-heading heading-caption">
-        © Sam Carty {{ currentYear }}
-      </p>
       <div class="attributions">
         <p class="footer-heading heading-caption">Attributions</p>
         <ul>
@@ -19,6 +16,10 @@
           </li>
         </ul>
       </div>
+
+      <p class="footer-heading heading-caption">
+        © Sam Carty {{ currentYear }}
+      </p>
     </div>
   </footer>
 </template>
@@ -42,7 +43,7 @@ export default {
 
 .attributions {
   max-width: 400px;
-  margin: 2rem auto 0 auto;
+  margin: 0 auto 5rem auto;
 
   p {
     margin: 0;
