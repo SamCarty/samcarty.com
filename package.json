@@ -14,7 +14,7 @@
     "lintfix": "eslint . --fix && prettier --write --list-different ."
   },
   "dependencies": {
-    "@nuxt/eslint": "1.1.0",
+    "@nuxt/eslint": "1.7.1",
     "@nuxtjs/google-fonts": "3.2.0",
     "eslint": "^9.23.0",
     "nuxt": "^3.15.0",
