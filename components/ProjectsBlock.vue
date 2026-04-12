@@ -47,7 +47,7 @@ export default {
             'Java & Kotlin-based Android app for tracking live train times. Now with over 10,000 active users!',
           imageUrl:
             'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658073783/portfolio/ontime_nrhkk5.png',
-          url: 'https://play.google.com/store/apps/details?id=com.zarg.ontime',
+          url: 'https://getontime.uk',
         },
         {
           name: 'Park Times',
