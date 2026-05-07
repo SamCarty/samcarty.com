@@ -44,9 +44,9 @@ export default {
         {
           name: 'Ontime',
           description:
-            'Java & Kotlin-based Android app for tracking live train times. Now with over 10,000 active users!',
+            'Real-time GB train tracking for iOS and Android.',
           imageUrl:
-            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1658073783/portfolio/ontime_nrhkk5.png',
+            'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1778178093/samcarty.com_card_background-2_x27bdc.png',
           url: 'https://getontime.uk',
         },
         {
