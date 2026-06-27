@@ -1,22 +1,6 @@
 <template>
   <footer class="section">
     <div class="container">
-      <div class="attributions">
-        <p class="footer-heading heading-caption">Attributions</p>
-        <ul>
-          <li>
-            theme park icon used in the Park Times logo is by Slamet Widodo from
-            <a
-              href="https://thenounproject.com/browse/icons/term/theme-park/"
-              target="_blank"
-              title="theme park Icons"
-              >Noun Project</a
-            >
-            (CC BY 3.0)
-          </li>
-        </ul>
-      </div>
-
       <p class="footer-heading heading-caption">
         © Sam Carty {{ currentYear }}
       </p>

@@ -39,7 +39,6 @@ export default {
             'Co-developed both backend and frontend for campaigning and legal tools startup Find Others.',
           imageUrl:
             'https://res.cloudinary.com/samcarty/image/upload/c_scale,h_360/v1702683692/portfolio/portfolio-find-others_uae6m5.png',
-          url: 'https://findothers.com',
         },
         {
           name: 'Ontime',

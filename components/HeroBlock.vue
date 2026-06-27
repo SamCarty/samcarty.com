@@ -15,17 +15,21 @@
       </p>
       <p class="hero-block__header__bio">
         My previous experience includes working with startup
-        <a href="https://findothers.com" target="_blank">Find Others</a>
-        to help build a central hub for victims of injustices to unite and take
-        action.
+        Find Others to help build a central hub for victims of injustices to unite and take action.
       </p>
       <p class="hero-block__header__bio">
-        I'm also interested in <strong>mobile development</strong>, with a
-        successful Android app
+        I'm also interested in <strong>mobile development</strong>, having built
+        <a href="https://getontime.uk" target="_blank">Ontime</a>, a train tracking app available on
         <a
           href="https://play.google.com/store/apps/details?id=com.zarg.ontime"
           target="_blank"
-          >live in the Play Store</a
+          >Google Play</a
+        >
+        and the
+        <a
+          href="https://apps.apple.com/gb/app/ontime-live-train-times/id6762378038"
+          target="_blank"
+          >Apple App Store</a
         >.
       </p>
     </div>
