@@ -12,16 +12,13 @@
   </a>
 </template>
 
-<script>
-export default {
-  name: 'ProjectTile',
-  props: {
-    project: {
-      type: Object,
-      required: true,
-    },
+<script setup>
+defineProps({
+  project: {
+    type: Object,
+    required: true,
   },
-}
+})
 </script>
 
 <style lang="scss" scoped>

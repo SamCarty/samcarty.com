@@ -8,15 +8,8 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: 'FooterBlock',
-  computed: {
-    currentYear() {
-      return new Date().getFullYear()
-    },
-  },
-}
+<script setup>
+const currentYear = computed(() => new Date().getFullYear())
 </script>
 
 <style lang="scss" scoped>

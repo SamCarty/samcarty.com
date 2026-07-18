@@ -5,16 +5,13 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'SkillTile',
-  props: {
-    skill: {
-      type: Object,
-      required: true,
-    },
+<script setup>
+defineProps({
+  skill: {
+    type: Object,
+    required: true,
   },
-}
+})
 </script>
 
 <style lang="scss" scoped>

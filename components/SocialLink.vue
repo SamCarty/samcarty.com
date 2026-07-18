@@ -4,24 +4,21 @@
   </a>
 </template>
 
-<script>
-export default {
-  name: 'SocialLink',
-  props: {
-    label: {
-      type: String,
-      required: true,
-    },
-    url: {
-      type: String,
-      required: true,
-    },
-    icon: {
-      type: String,
-      required: true,
-    },
+<script setup>
+defineProps({
+  label: {
+    type: String,
+    required: true,
   },
-}
+  url: {
+    type: String,
+    required: true,
+  },
+  icon: {
+    type: String,
+    required: true,
+  },
+})
 </script>
 
 <style lang="scss" scoped>

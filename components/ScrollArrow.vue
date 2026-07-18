@@ -8,16 +8,13 @@
   </a>
 </template>
 
-<script>
-export default {
-  name: 'ScrollArrow',
-  props: {
-    link: {
-      type: String,
-      required: true,
-    },
+<script setup>
+defineProps({
+  link: {
+    type: String,
+    required: true,
   },
-}
+})
 </script>
 
 <style lang="scss" scoped>
