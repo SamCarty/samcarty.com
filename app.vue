@@ -39,14 +39,13 @@ useHead({
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     {
-      hid: 'description',
       name: 'description',
       content:
         'Sam Carty is a software engineer with extensive experience developing full-stack web and Android applications.',
     },
     { name: 'format-detection', content: 'telephone=no' },
   ],
-  title: 'Sam Carty | Software Engineer',
+  title: 'Sam Carty - Software Engineer',
 })
 </script>
 

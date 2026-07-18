@@ -4,33 +4,27 @@
       <h1 class="heading-primary">
         <span
           class="heading-subtitle hero-block__header__heading hero-block__header__heading--greeting"
-          >HELLO WORLD, I'M</span
+          >Hi, I'm</span
         >Sam Carty
       </h1>
+
       <p class="hero-block__header__bio">
-        I'm a <strong>software engineer</strong> with extensive experience
-        developing <strong>full-stack web applications</strong>, currently
-        working at
-        <a href="https://coop.co.uk" target="_blank">The Co-operative Group</a>.
+        I'm a software engineer who builds things people actually use - from
+        mobile apps to full-stack web apps.
       </p>
+
       <p class="hero-block__header__bio">
-        My previous experience includes working with startup
-        Find Others to help build a central hub for victims of injustices to unite and take action.
+        I built
+        <a href="https://getontime.uk" target="_blank">Ontime</a>, helping
+        10,000+ commuters catch their train every day, and
+        <a href="https://parktimes.co" target="_blank">Park Times</a>, helping
+        theme park guests plan ahead.
       </p>
+
       <p class="hero-block__header__bio">
-        I'm also interested in <strong>mobile development</strong>, having built
-        <a href="https://getontime.uk" target="_blank">Ontime</a>, a train tracking app available on
-        <a
-          href="https://play.google.com/store/apps/details?id=com.zarg.ontime"
-          target="_blank"
-          >Google Play</a
-        >
-        and the
-        <a
-          href="https://apps.apple.com/gb/app/ontime-live-train-times/id6762378038"
-          target="_blank"
-          >Apple App Store</a
-        >.
+        Currently working at
+        <a href="https://coop.co.uk" target="_blank">Co-op</a>, helping to build
+        and maintain a selection of customer-facing services.
       </p>
     </div>
 

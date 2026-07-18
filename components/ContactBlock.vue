@@ -2,8 +2,8 @@
   <section class="section section--primary contact-block">
     <div class="container">
       <h3 class="heading-subtitle">
-        Get in touch with me at
-        <a href="mailto:me@samcarty.com" target="_blank">me@samcarty.com</a>
+        Have a project in mind?
+        <a href="mailto:me@samcarty.com" target="_blank">Get in touch</a>.
       </h3>
 
       <ul class="contact-block__socials">
@@ -34,6 +34,8 @@ export default {
 
 <style lang="scss" scoped>
 .contact-block {
+  padding: 2rem;
+
   &__socials {
     display: flex;
     justify-content: center;
