@@ -9,8 +9,8 @@
       </h1>
 
       <p class="hero-block__header__bio">
-        I'm a software engineer who builds things people actually use - from
-        mobile apps to full-stack web apps.
+        I'm a software engineer with 6+ years of experience building mobile and web apps that deliver 
+        real-world value.
       </p>
 
       <p class="hero-block__header__bio">
