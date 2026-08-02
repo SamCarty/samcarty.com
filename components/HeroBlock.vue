@@ -9,7 +9,7 @@
       </h1>
 
       <p class="hero-block__header__bio">
-        I'm a software engineer with 6+ years of experience building mobile and web apps that deliver 
+        I'm a software engineer with 8+ years of experience building mobile and web apps that deliver 
         real value.
       </p>
 
