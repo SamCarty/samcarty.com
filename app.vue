@@ -41,11 +41,11 @@ useHead({
     {
       name: 'description',
       content:
-        'Sam Carty is a software engineer with extensive experience developing full-stack web and Android applications.',
+        'Sam Carty is an experienced software engineer specializing in full-stack web and mobile development. View projects, experience and contact information.',
     },
     { name: 'format-detection', content: 'telephone=no' },
   ],
-  title: 'Sam Carty - Software Engineer',
+  title: 'Sam Carty | Full-Stack & Mobile Software Engineer',
 })
 </script>
 
